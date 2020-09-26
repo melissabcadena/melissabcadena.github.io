@@ -63,3 +63,11 @@ p, td {
 .contact-me-icons img:hover {
     background-color: var(--coral-color);
 }
+
+.carousel {
+    margin-bottom: 15px;
+}
+
+.page-footer {
+    background-color: var(--navy-color);
+}
