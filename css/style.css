@@ -50,7 +50,7 @@ header {
     padding-bottom: 50px;
 }
 
-p {
+p, td {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
 
