@@ -84,11 +84,19 @@ p, td {
 
 .project-info {
     background-color: var(--pink-color);
+    height: -webkit-fill-available;
 }
 
-.project-view {
-    padding: inherit;
+.project-view img {
+    width: -webkit-fill-available;
 }
 
+.project-links {
+    padding: 15px;
+}
+
+.row .column {
+    padding: 0;
+}
 
 
