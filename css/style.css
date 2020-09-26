@@ -1,0 +1,65 @@
+:root {
+    --pink-color: #f77;
+    --navy-color: #022f45;
+    --mustard-color: #d8ad39;
+}
+
+
+nav {
+
+font-family: 'Sacramento', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 3rem;
+line-height: 76px;
+background-color: #022F45;
+
+color: #EEEEEE;
+}
+
+header {
+    background-color: #fcfbf6;
+}
+
+.title-text {
+    font-size: 2rem;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+}
+
+.title-img {
+    padding: 15px;
+}
+
+.pink-div {
+    background-color: var(--pink-color);
+    text-align: center;
+}
+
+.yellow-div {
+    background-color: var(--mustard-color);
+    text-align: center;
+}
+
+.navy-div {
+    background-color: var(--navy-color);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
+.contact-me-icons img {
+    background-color: var(--mustard-color);
+}
+
+.contact-me-icons img:hover {
+    background-color: var(--coral-color);
+}
