@@ -4,6 +4,16 @@
     --mustard-color: #d8ad39;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 
 nav {
 
@@ -65,9 +75,20 @@ p, td {
 }
 
 .carousel {
-    margin-bottom: 15px;
+    height: 40rem;
 }
 
 .page-footer {
     background-color: var(--navy-color);
 }
+
+.project-info {
+    background-color: var(--pink-color);
+}
+
+.project-view {
+    padding: inherit;
+}
+
+
+
