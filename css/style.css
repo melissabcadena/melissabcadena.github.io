@@ -10,7 +10,6 @@ body {
     flex-direction: column;
 }
 
-
 nav {
 
 font-family: 'Sacramento', cursive;
@@ -70,11 +69,6 @@ p, td {
     background-color: var(--coral-color);
 }
 
-.carousel {
-    height: 50rem;
-    max-height: fit-content;
-}
-
 .carousel-item, iframe {
     background-color: var(--pink-color);
 }
@@ -99,4 +93,8 @@ p, td {
 
 iframe {
     width: auto;
+}
+
+.carousel {
+    height: 50rem;
 }
