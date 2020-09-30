@@ -76,19 +76,22 @@ p, td {
 
 .carousel {
     height: 40rem;
+    max-height: fit-content;
+}
+
+.carousel-item, iframe {
+    background-color: var(--pink-color);
 }
 
 .page-footer {
     background-color: var(--navy-color);
+    padding: 0;
+
 }
 
-.project-info {
-    background-color: var(--pink-color);
+.project-view img {
+    height: 40rem;
 }
-
-/* .project-view img {
-    width: -webkit-fill-available;
-} */
 
 .project-links {
     padding: 15px;
@@ -98,4 +101,6 @@ p, td {
     padding: 0;
 }
 
-
+iframe {
+    width: auto;
+}
