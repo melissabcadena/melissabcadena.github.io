@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Melissa Cadena Portfolio</title>
 </head>
@@ -15,6 +16,8 @@
     <nav>
         <div class="nav-wrapper">
           <a href="./index.html">melissa cadena porfolio</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
                 <a class="title-text" href="./my-work.html">my work.</a>
@@ -28,6 +31,19 @@
           </ul>
         </div>
       </nav>
+
+      <ul class="sidenav amber accent-3" id="mobile-demo">
+        <li>
+            <a class="title-text" href="./my-work.html">my work.</a>
+        </li>
+        <li>
+            <a class="title-text" href="./assets/melissa-cadena-resume.pdf" target="_blank">resume.</a>
+        </li>
+        <li>
+            <a class="title-text" href="./feedback.html">feedback.</a>
+        </li>
+      </ul>
+
 
     <header>
         <img class="hero-image" src="./assets/images/hero-img.svg">
@@ -86,16 +102,16 @@
             <img class="title-img" src="./assets/images/contact-me.svg">
             <div class="contact-me-icons container">
                 <ul class="row">
-                    <li class="col l3"> 
-                        <a target="_blank" href="https://github.com/melissabcadena"><img class="circle" src="./assets/images/003-github.png"></a>
+                    <li class="col l3 s6"> 
+                        <a target="_blank" class="col l1" href="https://github.com/melissabcadena"><img class="circle" src="./assets/images/003-github.png"></a>
                     </li>
-                    <li class="col l3">
+                    <li class="col l3 s6">
                       <a target="_blank" class="col l1" href="https://www.linkedin.com/in/melissa-cadena/"><img class="circle" src="./assets/images/004-linkedin.png"></a>
                     </li>
-                    <li class="col l3">
+                    <li class="col l3 s6">
                         <a target="_blank" class="col l1" href="tel:214.694.6491"><img class="circle" src="./assets/images/002-telephone.png"></a>
                     </li>
-                    <li class="col l3">
+                    <li class="col l3 s6">
                         <a target="_blank" class="col l1" href="mailto:melissabcadena@gmail.com"><img class="circle" src="./assets/images/001-mail.png"></a>
                     </li>
                 </ul>
@@ -104,6 +120,8 @@
       </article>
 
     </main>
-    
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

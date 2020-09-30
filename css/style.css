@@ -10,10 +10,6 @@ body {
     flex-direction: column;
 }
 
-main {
-    flex: 1 0 auto;
-}
-
 
 nav {
 
@@ -75,7 +71,7 @@ p, td {
 }
 
 .carousel {
-    height: 40rem;
+    height: 50rem;
     max-height: fit-content;
 }
 
